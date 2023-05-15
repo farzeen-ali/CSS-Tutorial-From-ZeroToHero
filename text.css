@@ -1,0 +1,76 @@
+.text {
+    width: 700px;
+    border: 5px solid blue;
+
+    /* color: aqua; */
+
+    /* Text align Properties */
+    /* text-align: center;
+    text-align: right;
+    text-align: left;  /* by default */
+    /* text-align: justify; */
+
+    /* direction Properties */
+    /* direction: rtl;
+    direction: ltr; */
+
+    /* Text decoration */
+    /* text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    /*by default */
+   /* text-decoration: none;   */
+
+   /* Text transform */
+
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase; */
+
+
+    /* line height */
+    /* line-height: 80px; */
+
+
+    /* text indent */
+    /* text-indent: 80px; */
+
+    /* letter spacing */
+    /* letter-spacing: 10px; */
+
+    /* word spacing */
+    /* word-spacing: normal;   by default */
+    /* word-spacing: 30px; */
+
+    /* white space */
+    /* white-space: pre; */
+    /* white-space: nowrap; */
+
+    
+    /* writing mode */
+    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.me {
+    font-size: 40px;
+    /* text shadow */
+    /* vertical horizontal blur color */
+    text-shadow: 3px 10px 3px red;
+
+
+}
