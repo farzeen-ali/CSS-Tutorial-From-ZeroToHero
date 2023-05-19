@@ -1,0 +1,19 @@
+/* .first {
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+    width: 500px;
+    height: 500px;
+} */
+.parent {
+    border: 5px solid red;
+    width: 700px;
+    height: 700px;
+}
+.second {
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 50%;
+}
