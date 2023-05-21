@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.box {
+    border: 0px solid red;
+    width: 50%; /*% unit depends on its parent element */
+    padding: 5px;
+    /* height: 100vh; */
+}
+.test {
+    border: 5px solid blue;
+    /* width: 70vw;   */
+    height: 70vh;
+
+
+    /* vmin vmax */
+    /* vmin-> vh or vw minimum select */
+
+    /* width: 50vmin; */
+
+     /*  vmax */
+    /* vmax-> vh or vw maximum select */
+    width: 50vmax;
+
+
+}
