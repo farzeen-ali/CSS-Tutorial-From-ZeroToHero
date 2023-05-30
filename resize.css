@@ -1,0 +1,20 @@
+/* textarea {
+    resize: none;
+} */
+.resize {
+    background-color: aqua;
+    border: 5px solid red;
+    height: 300px;
+    width: 500px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow: visible; */
+    /* resize: both; */
+    /* resize: horizontal; */
+    resize: vertical;
+
+    /* resize property does not work where overflow = visible (by default) */
+
+}
