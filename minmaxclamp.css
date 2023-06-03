@@ -1,0 +1,11 @@
+.function{
+    background-color: pink;
+    /* min()-> finds min value */
+    /* width: min(50%, 500px); */
+    /* max()-> finds max value */
+    /* width: max(50%, 500px); */
+
+    /* clamp()-> range -> min, prefered value  ,  max */
+    width: clamp(350px, 50%, 500px);
+
+}
