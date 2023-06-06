@@ -1,0 +1,9 @@
+img{
+    border: 5px solid black;
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    /* object-fit: cover; */
+    /* object-fit: fill; */
+    object-position: bottom center;
+}
