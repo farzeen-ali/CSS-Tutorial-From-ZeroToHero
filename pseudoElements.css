@@ -1,0 +1,25 @@
+/* p::first-letter{
+    font-size: 40px;
+    color: tomato;
+} */
+/* p::first-line{
+    font-size: 40px;
+    color: tomato;
+}
+
+p::selection{
+    color: blueviolet;
+    background-color: crimson;
+} */
+
+/* ::selection{
+    color: blueviolet;
+    background-color: tomato;
+} */
+
+h1::before{
+    content: "Farzeen ";
+}
+h1::after{
+    content: " Farzeen ";
+}
