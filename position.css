@@ -1,0 +1,67 @@
+/* position:
+1) static (by default)
+
+(positioned element)
+2) relative
+3) absolute
+4) fixed
+
+helping properties of position
+top
+bottom
+left
+right
+
+
+*/
+
+
+
+
+
+body{
+    height: 1500px;
+}
+.parent{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 100px;
+    /* position: relative; */
+}
+
+.child1{
+    width: 60px;
+    height: 50px;
+    background-color: tomato;
+    display: inline-block;
+}
+.child2{
+    width: 60px;
+    height: 50px;
+    background-color: yellowgreen;
+    display: inline-block;
+    /* relative */
+    /* position: relative;
+    top: 40px;
+    left: 20px; */
+
+    /* absolute */
+    /* position: absolute;
+    top: 50px;
+    left: 0; */
+
+    /*  fixed*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+
+
+}
+.child3{
+    width: 60px;
+    height: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+
+}
