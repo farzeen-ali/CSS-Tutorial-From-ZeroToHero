@@ -1,0 +1,18 @@
+.transition{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin: 140px;
+    /* transition-property: all; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    /* shorthand property in transition */
+    /* transition: all duration timing-function delay */
+    transition: all 1s ease-in-out 1s;
+}
+.transition:hover{
+    width: 400px;
+    background-color: blueviolet;
+    height: 400px;
+}
