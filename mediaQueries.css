@@ -1,0 +1,56 @@
+.box{
+    font-size: 50px;
+    background-color: aqua;
+    display: none;
+}
+
+@media screen and (max-width: 450px)
+{
+    /* mobile */
+    #box-1{
+        display: block;
+        background-color: blueviolet;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 780px)
+{
+    /* tablet */
+    #box-2{
+        display: block;
+        background-color: tomato;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 1440px)
+{
+    /* laptop */
+    #box-3{
+        display: block;
+        background-color: crimson;
+    }
+}
+@media screen and (min-width: 1441px)
+{
+    /* laptop */
+    #box-4{
+        display: block;
+        background-color: chartreuse;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
