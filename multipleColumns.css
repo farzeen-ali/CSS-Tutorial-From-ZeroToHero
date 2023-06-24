@@ -1,0 +1,15 @@
+div{
+    column-count: 4;
+    column-gap: 60px;
+    /* column-rule-style: solid;
+    column-rule-width: 5px;
+    column-rule-color: crimson; */
+    /* Shorthand property of style width and color in column rule */
+    column-rule: 3px dotted tomato;
+    /* min width of column */
+    column-width: 250px;
+
+}
+h1{
+    column-span: all;
+}
